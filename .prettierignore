@@ -1,0 +1,8 @@
+node_modules
+.next
+pnpm-lock.yaml
+convex/_generated
+next-env.d.ts
+playwright-report
+test-results
+*.tsbuildinfo

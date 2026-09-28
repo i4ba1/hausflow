@@ -1,0 +1,47 @@
+export const previewCases = [
+  {
+    id: "heating",
+    sender: "Anna Weber",
+    initials: "AW",
+    subject: "Heating has stopped working again",
+    property: "Lindenstraße 12 · Unit 12",
+    time: "09:42",
+    priority: "High",
+    category: "Heating",
+    body: "Guten Morgen, die Heizung in meiner Wohnung funktioniert seit gestern Abend wieder nicht. Letzten Monat war schon jemand zur Reparatur da. Können Sie bitte jemanden schicken? Vielen Dank, Anna Weber",
+    summary:
+      "Recurring heating failure in unit 12. Review the previous repair before arranging a follow-up visit.",
+    source: "Previous repair · 18 September",
+    note: "Heating valve inspected and adjusted. Follow-up recommended if the issue returns.",
+  },
+  {
+    id: "water",
+    sender: "Jonas Fischer",
+    initials: "JF",
+    subject: "Small leak under the kitchen sink",
+    property: "Lindenstraße 12 · Unit 04",
+    time: "09:18",
+    priority: "Normal",
+    category: "Water",
+    body: "Hallo, unter meiner Küchenspüle tropft es. Ich habe einen Eimer daruntergestellt. Wann könnte jemand vorbeikommen? Viele Grüße, Jonas",
+    summary:
+      "Tenant reports a contained leak under the kitchen sink. Ask for a photo and availability before arranging inspection.",
+    source: "Building instructions · Plumbing",
+    note: "Confirm location and access availability with the tenant before requesting a contractor visit.",
+  },
+  {
+    id: "access",
+    sender: "Mia Schneider",
+    initials: "MS",
+    subject: "Front door is difficult to close",
+    property: "Parkallee 8 · Unit 02",
+    time: "Yesterday",
+    priority: "Normal",
+    category: "Access",
+    body: "Guten Tag, die Haustür lässt sich seit ein paar Tagen nur schwer schließen. Könnten Sie das prüfen lassen? Danke, Mia",
+    summary:
+      "Shared entrance door needs inspection. Confirm whether the door currently closes securely.",
+    source: "Building instructions · Shared entrance",
+    note: "Record whether the entrance remains secure and request a maintenance assessment.",
+  },
+] as const;
